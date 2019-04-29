@@ -12,6 +12,10 @@ class Header extends Component {
                     <div className='fw7 mr1'>
                         Hacker News
                     </div>
+                    <Link to="/top" className="ml1 no-underline black">
+                        Top
+                    </Link>
+                    <div className="ml1">|</div>
                     <Link to='/' className='ml1 no-underline black'>
                         New
                     </Link>
@@ -20,6 +24,12 @@ class Header extends Component {
                     </div>
                     <Link to='/create' className='ml1 no-underline black'>
                         Submit
+                    </Link>
+                    <div className='ml1'>
+                        |
+                    </div>
+                    <Link to='/search' className='ml1 no-underline black'>
+                        Search
                     </Link>
                 </div>
                 <div className='flex flex-fixed'>
